@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Shopping list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="shopping.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>My shopping list</h1>
+    <form action="add" method="get">
+      <label for="">Add item</label>
+      <input type="text" name="item" />
+      <input id="addCart" type="submit" value="submit" />
+    </form>
+    <h2>My list</h2>
+    <ul class="list">
+      <li><input type="checkbox" name="item" />soap<a href="#">&#10006;</a></li>
+      <li><input type="checkbox" name="item" />milk<a href="#">&#10006;</a></li>
+      <li>
+        <input type="checkbox" name="item" />bread<a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" />fruits<a href="#">&#10006;</a>
+      </li>
+    </ul>
+    <script src="shopping.js"></script>
+  </body>
+</html>
